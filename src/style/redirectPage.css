@@ -1,0 +1,11 @@
+.container{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+    background: rgb(214,240,255);
+    background: linear-gradient(90deg, rgba(214,240,255,1) 0%, rgba(0,212,255,1) 100%);
+    font-family: Ubuntu;
+}

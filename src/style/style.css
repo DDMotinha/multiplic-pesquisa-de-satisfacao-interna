@@ -1,0 +1,155 @@
+body{
+    background:rgba(0,212,255,1);
+}
+
+.container{
+    width: 1200px;
+    justify-content: center;
+    align-content: justify;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /*background: #FCFCFC;*/
+    border-radius: 30px;
+}
+
+.topo {
+	background-color: ;
+	height: 200px;
+}
+
+.linetopo {
+	border-bottom: dashed 2px #0069c5;
+}
+
+.logo {
+	float: left;
+	margin-top: 40px;
+	
+}
+
+.tituloPesq {
+	height: 50px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 15%;
+	font-family: ubuntu;
+	font-size: 22px;
+	text-align: left;
+	color: #6e6e6e;
+}
+
+.tituloInfo {
+	font-family: Ubuntu;
+	font-size: 28px;
+}
+
+.tituloPesq span {
+	color: #4c4c4c;
+}
+
+.imgTopo {
+	width: 194px;
+	height: 183px;
+	float: right;
+	background-image: url("../assets/pesqsat.png");
+}
+
+.questCont{
+    margin: 7%;
+}
+
+.quest{
+    max-width: 100vw;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+}
+.quest1{
+    max-width: 100vw;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #003da5;
+}
+
+.Answer {
+    margin-bottom: 100px;
+    width: 30%;
+    text-align: center;
+}
+
+.oneQuest {
+	margin-top: 70px;
+}
+
+.happy {
+    position: relative;
+}
+input[type="radio"]:hover{
+    transform: scale(2);
+    transition-duration: 300ms;
+}
+label{
+    display: inline-block;
+    cursor: pointer;
+}
+label:hover{
+    transform: scale(2.7);
+    transition-duration: 500ms
+}
+input[type="radio"]:checked+label{
+    transform: scale(2);
+}
+input[type="radio"] {
+    visibility: hidden;
+}
+textarea{
+    resize: none;
+    width: 90%;
+    margin-bottom: 5%;
+    font-size: 18px;;
+}
+
+.respText {
+	margin-bottom: 2px;
+}
+
+
+#submit{
+
+}
+.table{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+@media{
+    min-width: 502px;
+}
+
+.clear {
+	clear: both;
+}
+.unique{
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+.perguntas{
+
+}
