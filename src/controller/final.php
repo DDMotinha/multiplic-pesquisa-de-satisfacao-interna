@@ -11,7 +11,7 @@
     <p>Redirecionando para a página da multiplic</p>
     <script>
         setTimeout(function() {
-            window.location.href = "https://multiplicnet.com.br/";
+            window.location.href = "";
         }, 1500);
     </script>
 </body>
